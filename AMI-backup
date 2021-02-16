@@ -1,0 +1,21 @@
+Policy 'AMI-backup':
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1476467851000",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:CreateImage",
+                "ec2:DeregisterImage",
+                "ec2:DescribeImageAttribute",
+                "ec2:DescribeImages"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
