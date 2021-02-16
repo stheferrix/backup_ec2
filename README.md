@@ -2,7 +2,7 @@
 
 1 - Create Role IAM
 
-2 - Create Policy IAM
+2 - Create Policy IAM (snapshot and iam)
 
 3 - Associate Policy to Role created
 
